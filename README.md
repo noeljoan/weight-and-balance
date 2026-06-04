@@ -106,6 +106,8 @@ CG-Position = Gesamt-Moment / Gesamtgewicht
 | Max. Gesamtgewicht        | 2.550 lb          |
 | CG-Vordergrenze          | 35.0 in (0% MAC)  |
 | CG-Hintergrenze          | 47.3 in (20% MAC) |
+|                          |                   |
+|Umrechnungsfaktor         | 1 lb = 0,453592 kg|
 
 ### Arm-Positionen (Standard)
 
