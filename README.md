@@ -182,9 +182,10 @@ Dieses Projekt steht unter der MIT-Lizenz – siehe [LICENSE](LICENSE) Datei fü
 
 ## 👨‍💻 Autor
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: you@example.com
+**Noel Joan**
+- GitHub: [@noeljoan](https://github.com/noeljoan)
+- Email: noel.joan@hotmail.com
+- Cwessna weight-and-balance: <https://weight-and-balance.onrender.com/>
 
 ## 🙏 Danksagung
 
