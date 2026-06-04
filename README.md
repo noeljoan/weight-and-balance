@@ -185,7 +185,7 @@ Dieses Projekt steht unter der MIT-Lizenz – siehe [LICENSE](LICENSE) Datei fü
 **Noel Joan**
 - GitHub: [@noeljoan](https://github.com/noeljoan)
 - Email: noel.joan@hotmail.com
-- Cessna 172 weight-and-balance calculation: <https://weight-and-balance.onrender.com/>
+- Cessna-172 Weight & Balance Calculator: <https://weight-and-balance.onrender.com/>
 
 ## 🙏 Danksagung
 
