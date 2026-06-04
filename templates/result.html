@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ergebnis - Cessna-172 Weight & Balance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .result-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .status-badge {
+            font-size: 1.5rem;
+            padding: 0.75rem 1.5rem;
+        }
+        .status-ok {
+            background-color: #28a745;
+        }
+        .status-bad {
+            background-color: #dc3545;
+        }
+        .result-table {
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+        }
+        .result-table th {
+            background-color: #f8f9fa;
+        }
+        .aircraft-icon {
+            font-size: 4rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 1rem;
+            border-radius: 4px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <div class="aircraft-icon">✈️</div>
+            <h1 class="display-4">Cessna-172 Weight & Balance</h1>
+            <p class="lead">Ergebnis der Berechnung</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="result-section">
+                    <div class="text-center mb-4">
+                        {% if ok %}
+                            <span class="badge status-badge status-ok">SICHER</span>
+                        {% else %}
+                            <span class="badge status-badge status-bad">UNZULÄSSIG</span>
+                        {% endif %}
+                    </div>
+
+                    <div class="result-table">
+                        <pre>{{ report }}</pre>
+                    </div>
+
+                    {% if not ok %}
+                        <div class="highlight mt-3">
+                            <h5>⚠️ Wichtige Hinweise:</h5>
+                            <p>{{ note }}</p>
+                            <p>Bitte passen Sie die Beladung an, um innerhalb der zulässigen Grenzen zu bleiben.</p>
+                        </div>
+                    {% endif %}
+                </div>
+
+                <div class="text-center">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        Neue Berechnung durchführen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

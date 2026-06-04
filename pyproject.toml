@@ -1,0 +1,19 @@
+[project]
+name = "weight-and-balance"
+version = "0.1.0"
+description = "Weight & Balance calculator for Cessna 172"
+readme = "README.md"
+authors = [{name = "Your Name", email = "you@example.com"}]
+requires-python = ">=3.9"
+dependencies = [
+    "Flask>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
