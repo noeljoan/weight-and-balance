@@ -12,6 +12,10 @@ Eine professionelle Web-Anwendung zur Berechnung von Gewicht und Schwerpunkt (Ce
 
 Dieses Tool hilft Piloten und Flugplanern, die **Gewichts- und Schwerpunktverteilung** einer Cessna 172 korrekt zu berechnen – eine wesentliche Sicherheitsmaßnahme vor jedem Flug. Die Anwendung prüft automatisch, ob die Beladung innerhalb der zulässigen Grenzen (POH-Spezifikationen) liegt.
 
+## Screenshoot
+
+![Dashboard](screenshot.png)
+
 #### Hauptmerkmale:
 
 - 🌐 **Web-Oberfläche** (Flask-basiert)
