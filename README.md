@@ -201,8 +201,5 @@ Dieses Projekt steht unter der MIT-Lizenz – siehe [LICENSE](LICENSE) Datei fü
 - Flask-Community für das großartige Framework
 - Alle Piloten, die zur Sicherheit in der Luftfahrt beitragen
 
-## 📄 Lizenz
-
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die [LICENSE](LICENSE)-Datei für Details.
-
+---
 ⭐ Wenn dieses Projekt Ihnen gefällt, geben Sie ihm einen Stern auf GitHub!
